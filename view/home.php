@@ -1,5 +1,9 @@
 <?php include 'header.php';?>
-<h1>HOMEEE</h1>
+
+
+<div class="container">
+    <h1>GAMES SHOP</h1>
+</div>
 
 
 
