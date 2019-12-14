@@ -1,5 +1,5 @@
 <?php
-require_once './model/Logic.php';
+require_once './model/logic.php';
 
 class Controller{
 
