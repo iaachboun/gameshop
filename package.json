@@ -1,0 +1,24 @@
+{
+  "name": "gameshop",
+  "version": "1.0.0",
+  "description": "chris website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoizans/gameshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoizans/gameshop/issues"
+  },
+  "homepage": "https://github.com/Hoizans/gameshop#readme"
+}
