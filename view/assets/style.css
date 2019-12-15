@@ -1,6 +1,36 @@
 body {
   top: 0;
   left: 0;
+
+}
+
+.eerste{
+  text-align: center;
+  background-image: linear-gradient(to right, #6d0eb1 , #310cb3);
+  padding: 10px;
+}
+
+.links{
+  background-color: #ed1c94 ;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.rechts{
+  background-color: transparent;
+  border: 2px solid white !important;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.tweede h3{
+  text-align: center;
+}
+
+.tweede hr{
+  background-image: linear-gradient(to right, #6d0eb1 , #310cb3);
+  height: 3px;
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
