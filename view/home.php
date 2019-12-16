@@ -1,6 +1,6 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 
-<!-- eerste sectie-->
+    <!-- eerste sectie-->
     <div class="row eerste">
         <div class="col">
             <h1>GAMES SHOP</h1>
@@ -12,33 +12,31 @@
         </div>
     </div>
 
-<!--  tweede sectie  -->
-<div class="container">
-    <div class="row tweede">
-        <div class="col-12">
-            <h3>Ons aanbod</h3>
-            <hr>
-        </div>
-        <div class="col-sm-3">
-            <img src="view/assets/images/ps2.jpg" width="100%">
-            <p>ahhaahha</p>
-        </div>
-        <div class="col-sm-3">
-            <img src="view/assets/images/ps3.jpg" width="100%">
-            <p>ahhaahha</p>
-        </div>
-        <div class="col-sm-3">
-            <img src="view/assets/images/ps4.jpg" width="100%">
-            <p>ahhaahha</p>
-        </div>
-        <div class="col-sm-3">
-            <img src="view/assets/images/switchlite.jpg" width="100%">
-            <p>ahhaahha</p>
+    <!--  tweede sectie  -->
+    <div class="container">
+        <div class="row tweede">
+            <div class="col-12">
+                <h3>Ons aanbod</h3>
+                <hr>
+            </div>
+            <div class="col-sm-3">
+                <img src="view/assets/images/ps2.jpg" width="100%">
+                <p>ahhaahha</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="view/assets/images/ps3.jpg" width="100%">
+                <p>ahhaahha</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="view/assets/images/ps4.jpg" width="100%">
+                <p>ahhaahha</p>
+            </div>
+            <div class="col-sm-3">
+                <img src="view/assets/images/switchlite.jpg" width="100%">
+                <p>ahhaahha</p>
+            </div>
         </div>
     </div>
-</div>
-
-
 
 
 <?php include 'footer.php'; ?>
