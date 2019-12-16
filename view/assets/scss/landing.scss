@@ -1,28 +1,72 @@
-.eerste{
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-image: linear-gradient(to right, #6d0eb1 , #310cb3);
+  height: 100vh;
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
   padding: 10px;
+  color: white;
+  //margin-right: 0 !important;
+  div {
+    h1 {
+      font-size: 400%;
+    }
+
+    div {
+      .btn {
+        margin: 5px;
+        &:hover{
+          background-color: #981DF0;
+          color: white;
+          border: 2px solid #981DF0 !important;
+        }
+      }
+    }
+  }
 }
 
-.links{
-  background-color: #ed1c94 ;
+.links {
+  background-color: #ed1c94;
+  border: 2px solid #ed1c94;
   color: #ffffff;
   border-radius: 20px !important;
 }
 
-.rechts{
+.rechts {
   background-color: transparent;
   border: 2px solid white !important;
   color: #ffffff;
   border-radius: 20px !important;
 }
 
-.tweede h3{
-  text-align: center;
+#over_ons {
+  padding: 4% 0;
+  min-height: 100vh;
+
+  .over_ons-title {
+    margin-bottom: 20px;
+  }
 }
 
-.tweede hr{
-  background-image: linear-gradient(to right, #6d0eb1 , #310cb3);
-  height: 3px;
-  width: 100px;
+
+.aanbod {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  h3 {
+    text-align: center;
+  }
+  .card{
+    margin: 20px 0;
+    .item-img-container{
+      height: 50%;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }

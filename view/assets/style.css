@@ -1,16 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 body {
   top: 0;
   left: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
-.eerste {
+.test-blok {
+  width: 90%;
+  height: 300px;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+hr {
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
+  height: 3px !important;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  height: 100vh;
   background-image: linear-gradient(to right, #6d0eb1, #310cb3);
   padding: 10px;
+  color: white;
+}
+.intro div h1 {
+  font-size: 400%;
+}
+.intro div div .btn {
+  margin: 5px;
+}
+.intro div div .btn:hover {
+  background-color: #981DF0;
+  color: white;
+  border: 2px solid #981DF0 !important;
 }
 
 .links {
   background-color: #ed1c94;
+  border: 2px solid #ed1c94;
   color: #ffffff;
   border-radius: 20px !important;
 }
@@ -22,14 +53,33 @@ body {
   border-radius: 20px !important;
 }
 
-.tweede h3 {
-  text-align: center;
+#over_ons {
+  padding: 4% 0;
+  min-height: 100vh;
+}
+#over_ons .over_ons-title {
+  margin-bottom: 20px;
 }
 
-.tweede hr {
-  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
-  height: 3px;
-  width: 100px;
+.aanbod {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.aanbod h3 {
+  text-align: center;
+}
+.aanbod .card {
+  margin: 20px 0;
+}
+.aanbod .card .item-img-container {
+  height: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
