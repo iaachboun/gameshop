@@ -46,53 +46,217 @@
                 <h3>Ons aanbod</h3>
                 <hr>
             </div>
-            <div class="card" style="width: 18rem;">
+
+            <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
                     <img src="view/assets/images/ps2.jpg" width="100%">
                 </div>
                 <div class="card-body">
+                    <br>
                     <h5 class="card-title">Ps2</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps3.jpg" width="100%">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Ps3</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps4.jpg" width="100%">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Ps4</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/switchlite.jpg" width="100%">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Nintendo Switch</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-overlay" style="width: 18rem;">
+                <div class="container item-img-container">
+                    <img src="view/assets/images/ps2.jpg" width="100%">
+                </div>
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Ps2</h5>
+                    <div class="overlay">
+                        <a href="#" class="icon" title="User Profile">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
 
 
             <!--            <div class="col-sm-3">-->

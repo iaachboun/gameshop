@@ -13,8 +13,20 @@ body {
 }
 
 hr {
-  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
+  width: 40vh;
+  background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
   height: 3px !important;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3) !important;
+  border: 1px solid #310cb3 !important;
+}
+.btn-primary:active {
+  border: 1px solid #310cb3 !important;
+}
+.btn-primary:visited {
+  border: 1px solid #310cb3 !important;
 }
 
 .intro {
@@ -59,6 +71,7 @@ hr {
 }
 #over_ons .over_ons-title {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .aanbod {
@@ -75,11 +88,50 @@ hr {
   margin: 20px 0;
 }
 .aanbod .card .item-img-container {
-  height: 50%;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.aanbod .card .item-img-container img {
+  max-height: 286px;
+}
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(237, 28, 148, 0.5);
+  border-radius: inherit;
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+.card-overlay:hover .overlay {
+  opacity: 1;
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+  color: white;
+  opacity: 1;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* When you move the mouse over the icon, change color */
+.fa-plus:hover, .icon:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
