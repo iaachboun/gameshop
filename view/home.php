@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
     <!-- eerste sectie-->
-    <div class="row intro">
+    <div class="intro">
         <div class="col">
             <h1>GAMES SHOP</h1>
             <p>The latest games and consoles</p>
