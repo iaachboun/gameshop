@@ -12,33 +12,6 @@
         </div>
     </div>
 
-
-    <div class="container" id="over_ons">
-        <div class="row">
-            <div class="col-12 over_ons-title">
-                <h2>De beste webshop voor games!</h2>
-                <p>Alle games op een plek</p>
-                <hr>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <h3>Keuze uit meer dan 4000 spellen</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non viverra erat. Ut fringilla
-                    vestibulum euismod. Integer ac varius mi, id tempus tortor. Curabitur at dignissim quam, quis
-                    tristique erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a porta est.
-                    Maecenas nisi leo, blandit ut odio ut, rhoncus finibus eros. Aenean a pellentesque urna. Proin et
-                    turpis vestibulum, dapibus tortor a, sollicitudin massa. Vestibulum ante ipsum primis in faucibus
-                    orci luctus et ultrices posuere cubilia Curae; In dignissim ante dui, id hendrerit dolor blandit
-                    vel. Suspendisse consectetur rutrum urna, sit amet tristique tortor fermentum sed. Curabitur in
-                    massa malesuada, finibus urna et, tincidunt felis. Donec sed egestas velit, id sodales lorem. Donec
-                    porttitor dui sapien, id tristique felis auctor non. Quisque posuere accumsan nunc ac gravida.</p>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <!--                <img src="https://via.placeholder.com/500x300" alt="test" />-->
-                <div class="test-blok">test misschien foto hier ofzo</div>
-            </div>
-        </div>
-    </div>
-
     <!--  tweede sectie  -->
     <div id="aanbod" class="container">
         <div class="row aanbod">
@@ -316,10 +289,33 @@
                 <h4 class="yel"><i class="fas fa-palette"></i> COLOR SCHEMES</h4>
                 <p>Our every template comes with a certain colour scheme and Brave has several alternative ones to offer. With their help, you can customize the look of your website.</p>
             </div>
-
-
         </div>
+        </div>
+    </div>
 
+    <div class="container" id="over_ons">
+        <div class="row">
+            <div class="col-12 over_ons-title">
+                <h2>De beste webshop voor games!</h2>
+                <p>Alle games op een plek</p>
+                <hr>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h3>Keuze uit meer dan 4000 spellen</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non viverra erat. Ut fringilla
+                    vestibulum euismod. Integer ac varius mi, id tempus tortor. Curabitur at dignissim quam, quis
+                    tristique erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a porta est.
+                    Maecenas nisi leo, blandit ut odio ut, rhoncus finibus eros. Aenean a pellentesque urna. Proin et
+                    turpis vestibulum, dapibus tortor a, sollicitudin massa. Vestibulum ante ipsum primis in faucibus
+                    orci luctus et ultrices posuere cubilia Curae; In dignissim ante dui, id hendrerit dolor blandit
+                    vel. Suspendisse consectetur rutrum urna, sit amet tristique tortor fermentum sed. Curabitur in
+                    massa malesuada, finibus urna et, tincidunt felis. Donec sed egestas velit, id sodales lorem. Donec
+                    porttitor dui sapien, id tristique felis auctor non. Quisque posuere accumsan nunc ac gravida.</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <!--                <img src="https://via.placeholder.com/500x300" alt="test" />-->
+                <div class="test-blok">test misschien foto hier ofzo</div>
+            </div>
         </div>
     </div>
 
