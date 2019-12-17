@@ -1,0 +1,73 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
+  padding: 10px;
+  color: white;
+  //margin-right: 0 !important;
+  div {
+    h1 {
+      font-size: 400%;
+    }
+
+    div {
+      .btn {
+        margin: 5px;
+
+        &:hover {
+          background-color: #981DF0;
+          color: white;
+          border: 2px solid #981DF0 !important;
+        }
+      }
+    }
+  }
+}
+
+.links {
+  background-color: #ed1c94;
+  border: 2px solid #ed1c94;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.rechts {
+  background-color: transparent;
+  border: 2px solid white !important;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+
+
+.aanbod {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  h3 {
+    text-align: center;
+  }
+
+  .card {
+    margin: 20px 0;
+
+    .item-img-container {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        max-height: 286px;
+      }
+      .card-body{
+      }
+    }
+  }
+}

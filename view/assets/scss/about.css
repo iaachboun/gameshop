@@ -1,0 +1,30 @@
+.containe {
+  padding: 5pc 5pc 5pc 5pc;
+}
+
+.containe h1 {
+  color: white;
+  text-align: center;
+  font-size: 3pc;
+  text-transform: uppercase;
+}
+
+.containe hr {
+  margin-bottom: 8pc;
+  width: 5%;
+}
+
+.containe .yel {
+  color: #FBE818;
+  text-transform: uppercase;
+}
+
+.containe .yel i {
+  color: white;
+}
+
+.containe p {
+  color: #A3A3AA;
+  margin-bottom: 5pc;
+}
+/*# sourceMappingURL=about.css.map */

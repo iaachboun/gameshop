@@ -1,6 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 body {
   top: 0;
   left: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.test-blok {
+  width: 90%;
+  height: 300px;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+hr {
+  width: 40vh;
+  background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
+  height: 3px !important;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3) !important;
+  border: 1px solid #310cb3 !important;
+}
+.btn-primary:active {
+  border: 1px solid #310cb3 !important;
+}
+.btn-primary:visited {
+  border: 1px solid #310cb3 !important;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
+  padding: 10px;
+  color: white;
+}
+.intro div h1 {
+  font-size: 400%;
+}
+.intro div div .btn {
+  margin: 5px;
+}
+.intro div div .btn:hover {
+  background-color: #981DF0;
+  color: white;
+  border: 2px solid #981DF0 !important;
+}
+
+.links {
+  background-color: #ed1c94;
+  border: 2px solid #ed1c94;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.rechts {
+  background-color: transparent;
+  border: 2px solid white !important;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.aanbod {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.aanbod h3 {
+  text-align: center;
+}
+.aanbod .card {
+  margin: 20px 0;
+}
+.aanbod .card .item-img-container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aanbod .card .item-img-container img {
+  max-height: 286px;
+}
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(237, 28, 148, 0.5);
+  border-radius: inherit;
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+.card-overlay:hover .overlay {
+  opacity: 1;
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+  color: white;
+  opacity: 1;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* When you move the mouse over the icon, change color */
+.fa-plus:hover, .icon:hover {
+  color: #fff;
+}
+
+.aboutUs-section {
+  height: 110vh;
+  padding: 200px 0;
+}
+.aboutUs-section .imacScherm {
+  position: absolute;
+}
+.aboutUs-section .imacSchermImg {
+  width: 103%;
+  height: auto;
+  position: relative;
+  left: 4.4%;
+  margin-top: 4%;
+}
+.aboutUs-section .over_ons-title {
+  font-family: oswald, Helvetica, Arial, sans-serif;
+  margin-bottom: 60px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+.aboutUs-section .over_ons-title h3 {
+  position: relative;
+}
+.aboutUs-section .onderTekst {
+  position: absolute;
+  bottom: -20%;
+  left: -95px;
+  font: 900 36px/1 "Montserrat", sans-serif;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #f2f3f9;
+  font-size: 7.3em;
+}
+.aboutUs-section .aboutUs-line {
+  width: 167px;
+  background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
+  height: 3px !important;
+}
+.aboutUs-section .aboutUs-knop {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  padding: 14px 38px;
+  border: 1px solid #ededed;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.aboutUs-section .aboutUs-knop:hover {
+  cursor: pointer;
+  background-color: #981DF0;
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */

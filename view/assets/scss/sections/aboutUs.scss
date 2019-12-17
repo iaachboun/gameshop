@@ -1,0 +1,62 @@
+.aboutUs-section {
+  height: 110vh;
+  padding: 200px 0;
+
+  .imacScherm {
+    position: absolute;
+  }
+
+  .imacSchermImg {
+    width: 103%;
+    height: auto;
+    position: relative;
+    left: 4.4%;
+    margin-top: 4%;
+  }
+
+  .over_ons-title {
+    font-family: oswald, Helvetica, Arial, sans-serif;
+    margin-bottom: 60px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+
+    h3 {
+      position: relative;
+    }
+  }
+
+  .onderTekst {
+    position: absolute;
+    bottom: -20%;
+    left: -95px;
+    font: 900 36px/1 "Montserrat", sans-serif;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #f2f3f9;
+    font-size: 7.3em;
+  }
+
+  .aboutUs-line {
+    width: 167px;
+    background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
+    height: 3px !important;
+  }
+
+  .aboutUs-knop {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 14px 38px;
+    border: 1px solid #ededed;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #981DF0;
+      color: white !important;
+    }
+  }
+}

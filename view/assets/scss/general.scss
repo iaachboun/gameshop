@@ -1,5 +1,66 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+// Breakpoints
+
+$bp-desktop-hd-extra: '1920px';
+
+$bp-desktop-hd: '1200px';
+
+$bp-desktop: '1000px';
+
+$bp-tablet: '750px';
+
+$bp-phablet: '550px';
+
+$bp-mobile: '320px';
+
+$breakpoints: (
+        'desktop-hd-extra': (min-width: 1920px),
+        'desktop-extra-large': (min-width: 1680px),
+        'desktop-large': (min-width: 1440px),
+        'desktop-hd': (min-width: 1215px),
+        'desktop': (min-width: 1214px),
+        'desktop-sm': (min-width: 1000px),
+        'tablet': (min-width: 758px),
+        'phablet': (min-width: 550px),
+        'mobile-lg': (min-width: 400px),
+        'mobile': (min-width: 320px),
+        'mobile-high': (max-height: 780px)
+);
+
+body {
   top: 0;
   left: 0;
+  font-family: "Open Sans", sans-serif;
+  //padding: 10px;
+}
 
+.btn links {
+
+}
+
+.test-blok {
+  width: 90%;
+  height: 300px;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+hr {
+  width: 40vh;
+  background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
+  height: 3px !important;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3) !important;
+  border: 1px solid #310cb3 !important;
+
+  &:active {
+    border: 1px solid #310cb3 !important;
+  }
+
+  &:visited {
+    border: 1px solid #310cb3 !important;
+  }
 }
